@@ -1,0 +1,182 @@
+.portafolio-container{
+    font-family: Barlow ;
+    background-color: #272839;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        padding-top: 130px;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgba(3, 255, 247, 1);
+    }
+    h2{
+        color:rgb(65, 193, 219) ;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .image {
+        background-image: url("../../../../public/images/property/imagenfondo.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px black;
+        margin-top: 2%;
+        .benefit {
+            width: 55%;
+            height: 100%;
+            background-color: rgba(39, 40, 57, 0.788);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 4%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            .total, .monthly {
+                margin: 3% 0;
+                display: flex;
+                justify-content:space-between;
+                width: 40%;
+            }                       
+        }
+    }
+    .buttons {
+        width: 50%;
+        display: flex;
+        justify-content:space-around;
+        margin: 50px 0;
+        .button {
+            width: 40%;
+            background-color: rgba(255, 255, 255, 0.415);
+            border: none;
+            padding: 10px 0;
+        }
+        .button:hover {
+            background-color: rgb(48,162,185);
+        }
+
+    }
+    .container-prop{
+        width: 90%;
+        justify-content: center;
+        
+     .properties_portfolio {  
+            margin: 20px 0;
+        }
+        .property_portfolio {
+            background-color: rgb(17, 24, 39);
+            border-radius: 15px;
+            .imageMain {
+                width: 100%;
+                height: 150px;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                img:hover {
+                    cursor: pointer;
+                }
+                .filtro-opaco{
+                    height: 150px;
+                    width: 50%;
+                    background-color: rgba(0, 0, 0, 0.571);
+                    position: relative;
+                    bottom: 150px;
+                    border-top-left-radius: 15px;
+                    padding: 10px;
+                }
+                h5{
+                    text-align: left;
+                    margin-left: 10px;
+                    position: absolute;
+                    bottom: 0;
+                    color: white;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color:white;
+                }
+                .sold {
+                    background-color: rgb(52,168,83);
+                    padding: 0 2%;
+                    position: absolute;
+                    margin-left: 10px;
+                    border-radius: 5px;
+                    width: 60%;
+                }
+                .nosold {
+                    display: none;
+                } 
+            }
+            
+            .infoProperty {
+                width: 100%;
+                text-align: left;
+                border: none;
+                color: white;
+                border-radius: 10px;
+               .location {
+                color: invert($color: #767070);
+                margin-right: 5px;
+               }
+                .address {
+                    color: rgb(177,181,195); 
+                }
+                
+            }
+            .sale {
+                background-color: rgb(48,162,185);
+                border: 1px solid white;
+                width: 90%;
+                height: 20%;
+                border: none;
+                margin: 10px 0;
+            }
+            .sale:hover {
+                background-color: rgb(65, 193, 219);
+            }
+        }
+    }
+    
+   
+
+}
+
+
+@media (max-width: 769px ){
+   .portafolio-container {
+    .image {
+        width: 370px;
+        height: 200px;
+       }
+       .buttons {
+        width: 410px;
+       }
+   }
+   
+}
+
+
+
+@media (max-width: 391px){
+    .portafolio-container {
+        .image {
+            width: 280px;
+           }
+           .buttons {
+            width: 200px;
+           }
+       }
+}

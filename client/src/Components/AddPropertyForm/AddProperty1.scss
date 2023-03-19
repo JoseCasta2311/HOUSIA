@@ -1,0 +1,203 @@
+.fondoAdd1{
+    font-family: Barlow;
+    background-color: #272839;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .padreAdd1{
+            padding: 140px 10vw;
+            .alturaCont{
+                margin-right: 20vw;
+                span{
+                   background-color: white;
+                color: black;
+                font-weight: bold;
+                padding: 10px 35px;
+                border-radius: 10px;
+                font-size: 20px;
+                margin-bottom: 100px!important; 
+                }
+            }
+            ::placeholder{
+                color: white;
+            }           
+            h2{
+                padding-top: 30px;
+                font-weight: bold;
+                font-size: 50px;
+                text-align: center;
+                color: rgb(3, 255, 247);
+            }
+            h3{
+                margin: 30px;
+                font-size: 30px;
+                text-align: center;
+            }
+            p{
+                font-size: 20px;
+                font-weight: bold;               
+            }
+            input{
+                width: 550px;
+                border: 1px solid white;
+                background-color: transparent;
+                padding: 15px 15px;
+                font-size: 20px;
+                color:  white;
+                border-radius: 10px;             
+            }
+            ::placeholder{
+                color: white;
+            }
+            :focus{
+                outline: 1px solid #4cecf5;
+                border: 1px solid #4cecf5;
+            }
+            select{
+                color: white;
+                width: 550px;
+                border: 1px solid white;
+                background-color: transparent;
+                padding: 15px 15px;
+                font-size: 20px;
+                margin: 10px 0px 20px 0px;
+                border-radius: 10px;
+                option{
+                    background-color: #272839;
+                }
+            }
+        }
+        .padre2Add1{
+            img{
+                padding: 0px 0px 0px 0px;
+                width:550px;
+                height: 550px;
+                margin: 220px 0px 20px 7vw;
+            }
+            button{
+                margin-left: 13vw;
+                background-color: white;
+                color: #272839;
+                border: none;
+                width: 400px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px 10px;
+            }
+        }   
+}
+
+
+//RESPONSIVE
+@media (max-width: 1400px ){
+    
+    .fondoAdd1{ 
+        min-height: 100vh; 
+        .padreAdd1{
+            padding: 150px 100px 0px 100px;
+            .alturaCont{
+                margin-right: 60vw;
+                
+            }
+            .displayresAdd1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 70px;          
+            }
+        }
+        .padre2Add1{
+            .barraAdd1{
+                
+                  
+                margin: 0PX; 
+            }
+            .progress-bar{
+                background-color: #37A5B7;            
+            }
+            img{
+                display: none;
+            }
+            button{
+                width: 70%;
+                text-align: center;
+                margin: 0px 50px 0px 32vw;
+            }
+    }   
+}
+}
+
+//TABLET
+@media (max-width: 769px ){
+    .fondoAdd1{ 
+        height: 100%; 
+            .padreAdd1{
+                
+                padding: 150px 12vw 0px 12vw;
+                .alturaCont{
+                    margin-right: 40vw;
+                    span{
+                        font-size: 15px;
+                    }
+                }
+                input{
+                    width: 72vw;            
+                }
+                select{
+                    width: 72vw;
+                }
+            }
+            .padre2Add1{
+                img{
+                    display: none;
+                }
+                button{
+                    width: 10%;
+                    margin: 0px 9vw 30px 11vw;
+                    width: 72vw;
+                }
+            }   
+    }
+}
+
+//MOVIL
+@media (max-width: 391px ){
+    .fondoAdd1{
+        height: 100%; 
+            .padreAdd1{
+                padding: 150px 10vw 0px 10vw;
+                .alturaCont{
+                    margin-bottom: 30px;  
+                }
+                h2{
+                    padding-top: 10px!important;
+                    font-size:40px;
+
+                }
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 20px;              
+                }
+                input{
+                    width: 300px;           
+                }
+                select{
+                    width: 300px; 
+                }
+            }
+            .padre2Add1{
+
+                button{
+                   margin:0px 0px 30px 7vw;
+                   padding: 10px 5px;
+                    width:75vw;
+                }
+            }   
+    } 
+}

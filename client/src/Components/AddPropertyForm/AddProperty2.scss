@@ -1,0 +1,243 @@
+.padreAdd2{
+    font-family: Barlow;
+    background-color: #272839;
+    color: white;
+    width: 100%;
+    height: 120vh; 
+    
+    .tituloAdd2{
+        h2{
+            padding-top: 150px;
+            font-weight: bold;
+            font-size: 50px;
+            text-align: center;
+            color: rgba(3, 255, 247, 1);
+        }
+    }
+    .colAdd2{
+       padding: 2vw 10vw;
+       .alturaCont2{
+        margin-bottom: 30px;
+        span{
+           background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 10px 35px;
+        border-radius: 10px;
+        font-size: 20px;
+        
+        }
+    }
+       h3{
+        font-size: 40px;
+        font-weight: bold;
+       }
+       p{
+        margin: 20px 0px;
+        font-size: 20px;
+       }
+       .displayAdd2{
+        display: flex;
+        input{
+            background-color:#272839 ;
+            border: 1px solid white;
+            padding: 10px 10px;
+            border-radius: 5px;
+            color: white;
+            width: 200px;
+        }
+        ::placeholder{
+            color: white;
+        }
+        :focus{
+            outline: 1px solid #4cecf5;
+            border: 1px solid #4cecf5;
+        }
+        p{
+            font-size:20px;
+        }
+        .sepAdd2, .displayAdd2{
+           margin-left: 20px;
+        }
+       }
+    }
+    .otroColAdd2{
+        padding: 5vw 10vw;
+        p{
+            font-size:20px;
+        }
+        input{
+            
+            margin: 5px 0px;
+            background-color:#272839 ;
+            border: 1px solid white;
+            padding: 10px 10px;
+            border-radius: 5px;
+            color: white;
+            width: 400px;
+        }
+        ::placeholder{
+            color: white;
+        }
+        :focus{
+            outline: 1px solid #4cecf5;
+            border: 1px solid #4cecf5;
+        }
+        select{
+            font-size:20px;
+            color: white;
+            background-color: #272839;
+            width: 400px;
+            padding: 10px 10px;
+            margin: 10px 0px;
+        }
+        button{
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color:white ;
+            width: 400px;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    }
+}
+//RESPONSIVE
+@media(max-width:1400px){
+    .padreAdd2{
+        height: 100vh;
+        .rowAdd2{
+            margin: 0px!important;
+            padding: 0px;
+            
+            .colAdd2{   
+                
+            .displayAdd2jose{
+                display: flex;
+                flex-direction: column;
+                align-items: center!important;   
+                     
+            }
+        }
+        .otroColAdd2{
+            align-items: center;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            
+        }
+        }
+    }
+}
+
+@media(max-width:990px){
+    .padreAdd2{
+        height: 100%;
+        text-align: center;
+        .tituloAdd2{
+            margin-bottom: 20px;
+        }
+        .alturaCont2{
+            padding-right: 50vw;
+            span{
+                width: 100px!important;
+                padding: 10px 30px!important;
+                
+            }
+        }
+        button{
+            margin-bottom: 30px;
+        }
+    }
+        
+}
+//TABLET
+@media (max-width: 769px ){
+    .padreAdd2{
+        height: 100%;
+        .colAdd2{
+            .alturaCont2{
+                padding-right: 50vw;
+                span{
+                    font-size: 15px;
+                    width: 100px!important;
+                    padding: 10px 30px!important;
+                    
+                }
+            }
+           h3{
+            text-align: center;
+           }
+           .displayAdd2{
+            input{
+                width: 26vw;
+            }  
+           }
+        }
+        .otroColAdd2{
+            padding-top: 0px;
+              
+            input{
+                width: 53vw;
+            }  
+            select{
+                width: 53vw;
+            }
+            button{
+                width: 53vw;
+            }
+        }
+    }
+}
+
+//MOVIL
+@media (max-width: 391px ){
+    .padreAdd2{
+        height: 100%; 
+        .tituloAdd2{
+            h2{
+                font-size: 45px;
+            }
+        }
+        .colAdd2{
+            .sepAdd2{
+                margin: 0px!important;
+             }
+          
+           h3{
+            font-size: 35px;
+           }
+           p{
+            font-size: 18px;
+           }
+           .displayAdd2{
+            display: flex;
+            margin-left: 10px;
+            p{
+            padding-left: 0px;
+            width: 165px;
+            font-size: 15px;
+            }
+           }
+        }
+        .otroColAdd2{
+            margin: 0px;
+            margin-left: 5px;
+            p{
+                width:200px;
+            }
+            input{
+                width: 70vw;
+            }  
+            select{
+                width: 70vw;
+            }
+            button{
+                width: 70vw;
+            }
+        }
+    }
+    
+}

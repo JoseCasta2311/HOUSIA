@@ -1,0 +1,101 @@
+.main{
+    font-family: Barlow;
+    background-color: #272839;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 !important;
+    h1{
+        padding-top: 130px;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        color: rgba(3, 255, 247, 1);
+    }
+    .profit{
+        
+        padding: 0;
+        padding-top: 15vh;
+        text-align: left;
+
+        }
+
+
+    .graphic{
+        padding: 0;
+        
+        
+        img{
+            width: 96%;
+        }
+    }
+
+    .datos{
+        width: 98vw;
+    }
+
+    .control{
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+
+    .info{
+        text-align: center;
+        h3{
+            margin: 30px auto 40px;
+            border: 2px solid #30A1B9;
+            border-radius: 20px;
+            width: 60%;
+            
+        }
+
+        span{
+            width: 30%;
+
+        }
+    }
+
+    .medio{
+        h3{
+        margin-left: 10%;
+        margin: 30px  20px 40px ;
+        border: 2px solid #30A1B9;
+        border-radius: 20px;
+          text-align: center; 
+            }
+
+            .tiposMedio{
+                padding-top: 1rem;
+            }
+
+    span{
+        text-align: left;
+        width: 40%;
+        margin-left: 10%;
+       
+
+        }
+    }
+
+    .record{
+        h3{
+            margin-left: 10%;
+            margin: 30px 20px 40px;
+            border: 2px solid #30A1B9;
+            border-radius: 20px;
+              text-align: center; 
+                }
+    }
+
+
+}
+
+
+
+
+
